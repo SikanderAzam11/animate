@@ -5,7 +5,6 @@ const active = document.querySelector(".active");
 const cards = document.querySelectorAll(".card");
 
 links.forEach((link) => {
-  console.log();
   if (link.textContent === links[0].textContent) 
   gsap.to(link, { color: "blueviolet" });  
   link.addEventListener("click", () => {
